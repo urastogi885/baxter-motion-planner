@@ -11,3 +11,7 @@ Simulate pick and place ability of baxter along with obstacle avoidance
 - MoveIt
 - Rviz
 - Baxter Simulator
+
+## Install Dependencies
+
+- Install ROS Kinetic using the following the instructions on this [link](http://wiki.ros.org/kinetic/Installation/Ubuntu). It is recommended that you install full-desktop version.
