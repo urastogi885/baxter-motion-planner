@@ -4,6 +4,12 @@
 ## Overview
 This projects simulates the pick and place ability of Baxter along with obstacle avoidance. The Rviz path planner was used to extract coordinates for the robot to follow a specific path. These points were finally fed to the [*ik_pick_and_place node*](https://github.com/urastogi885/baxter-motion-planner/blob/master/scripts/ik_pick_and_place_demo.py) to simulate baxter's motion in Gazebo.
 
+<p align="center">
+  <img src="https://github.com/urastogi885/baxter-motion-planner/blob/master/images/baxter_motion_planning.gif">
+  <br><b>Figure 1 - Demo of Baxter moving objects while avoiding obstacles</b><br>
+</p>
+
+
 ## Dependencies
 
 - ROS Kinetic
@@ -42,6 +48,16 @@ catkin_make
 ```
 - Create your ROS workspace by following instructions on the [*create ROS workspace tutortial page*](http://wiki.ros.org/catkin/Tutorials/create_a_workspace).
 - Follow the [*Rethink Robotics link*](https://sdk.rethinkrobotics.com/wiki/Simulator_Installation) to setup the Baxter simulator.
+
+## Waypoints Extraction
+
+- The coordinates for Baxter to pick'n'place objects while avoiding obstacles were extracted using Rviz Path Planning.
+- A demo of the same can be seen below.
+
+<p align="center">
+  <img src="https://github.com/urastogi885/baxter-motion-planner/blob/master/images/waypoints.gif">
+  <br><b>Figure 2 - Demo of extracting waypoints for Baxter to avoid obstacles</b><br>
+</p>
 
 ## Build
 
