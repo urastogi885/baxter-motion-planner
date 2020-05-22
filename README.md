@@ -9,6 +9,9 @@ This projects simulates the pick and place ability of Baxter along with obstacle
   <br><b>Figure 1 - Demo of Baxter moving objects while avoiding obstacles</b><br>
 </p>
 
+## Author
+1. [Aman Virmani](https://github.com/AmanVirmani)  
+2. [Umang Rastogi](https://github.com/urastogi885)
 
 ## Dependencies
 
